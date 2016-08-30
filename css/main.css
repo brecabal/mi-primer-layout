@@ -1,0 +1,191 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+}
+
+
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+
+
+
+.col-1 {
+    width: 8.333333%;
+}
+.col-2 {
+    width: 16.666667%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333%;
+}
+.col-5 {
+    width: 41.666667%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333333%;
+}
+.col-8 {
+    width: 66,666667%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333333%;
+}
+.col-11 {
+    width: 91.666667%;
+}
+.col-12 {
+    width: 100%;
+
+
+}
+
+nav{
+	text-align: center;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	width: 100%;
+
+}
+
+ul{
+	margin: 0 auto;
+}
+
+li{
+	text-align:center;
+	list-style: none;
+	display:block;
+	float: left;
+	font-size:20px;
+	
+}
+
+
+.primero{
+	width: 250px;
+	text-align: center;
+	position: relative;
+	left: 400px;
+	color: black;
+	font-size: 20px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	margin: 20px;
+	text-align: center;
+	position: relative;
+	left: 100px;
+
+}
+
+
+.logo{
+	width: 80%;
+	position: relative;
+	left:100px;
+}
+
+.grupo{
+	width: 50%;
+	position: relative;
+	left: 250px;
+}
+
+.letras{
+	position: relative;
+	bottom: 20px;
+	left: 100px;
+	color: #fff;
+}
+
+.subtitulo{
+	width: 65px;
+	color: black;
+}
+
+.texto{
+	width: 55px;
+	position: relative;
+	left: 490px;
+}
+
+.perfil{
+	border: 2px solid gray;
+	padding: 20px;
+	margin:20px auto;
+}
+
+.otrafoto{
+
+	width: 100%;
+}
+
+.circular{
+	border-radius: 100%;
+	margin-left: 40%;
+}
+
+h1{
+	text-align: center;
+	font-size: 25px;
+	padding: 30px;
+
+}
+
+.primertexto{
+	float: left;
+	padding: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.segundotexto{
+	background: gray;
+	margin: 20px;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+}
+
+.uno{
+	width: 800px;
+}
+
+.dos{
+	width: 400px;
+}
+
+.tres{
+	width: 200px;
+}
